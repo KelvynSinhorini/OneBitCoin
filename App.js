@@ -3,6 +3,7 @@ import { StyleSheet, StatusBar, Text, View, SafeAreaView, Platform } from 'react
 
 import CurrentPrice from './src/components/CurrentPrice';
 import HistoryGraphic from './src/components/HistoryGraphic';
+import QuotationList from './src/components/QuotationList'
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
        />
        <CurrentPrice />
        <HistoryGraphic />
+       <QuotationList />
     </SafeAreaView>
   );
 }
